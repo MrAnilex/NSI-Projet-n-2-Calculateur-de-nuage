@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Convertisseur de devises</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Convertisseur</h1>
+
+    <img src="calculatrice.png" alt="calculatrice" class="logo">
+	
+    <div class="form-container">
+        <label>
+            Devise actuelle :
+            <input type="text" id="devise" placeholder="Ex : €">
+        </label>
+
+        <label>
+            Nouvelle devise :
+            <input type="text" id="newDevise" placeholder="Ex : $">
+        </label>
+
+        <label>
+            Taux :
+            <input type="number" id="coef" step="0.0001" placeholder="Ex : 1.08">
+        </label>
+
+        <label>
+            Somme :
+            <input type="number" id="somme" step="0.01" placeholder="Ex : 50">
+        </label>
+
+        <button id="convertir">Convertir</button>
+    </div>
+
+    <h2 id="resultat"></h2>
+
+    <script src="script.js"></script>
+</body>
+</html>
