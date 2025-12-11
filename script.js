@@ -1,7 +1,7 @@
 document.getElementById("convertir").addEventListener("click", () => {
 
-    const temp = parseFloat(document.getElementById("devise").value.trim());
-    const humid = parseFloat(document.getElementById("newDevise").value.trim());
+    const temp = parseFloat(document.getElementById("temp").value.trim());
+    const humid = parseFloat(document.getElementById("humid").value.trim());
     
     if (!temp || !humid) {
         result.style.color = "red";
@@ -22,4 +22,5 @@ document.getElementById("convertir").addEventListener("click", () => {
     result.textContent =
         `${somme.toFixed(2)} ${temp} valent ${montant.toFixed(2)} ${humid}`;
 });
+
 
