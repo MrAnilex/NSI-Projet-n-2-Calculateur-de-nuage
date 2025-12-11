@@ -6,6 +6,6 @@ Voici le projet d'NSI concernant le calculateur de hauteur de nuage, le projet e
 -------
 - En téléchargement du code source via le boutton 'Code' ---> 'Download ZIP' (je pense pas vous apprendre quelque chose de nouveau)
 - via le lien ci-dessous :
-Lien du site : https://mranilex.github.io/NSI-Projet-n-2-Calculateur-de-nuage/
+https://mranilex.github.io/NSI-Projet-n-2-Calculateur-de-nuage/
 
 ## Les seuls problèmes que je n'ai pas su régler se trouve au niveau du CSS et sur la barre noire qui s'affiche derrière le résultat, c'est pas très beau, mais au moins ça marche
