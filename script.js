@@ -1,20 +1,25 @@
 document.getElementById("convertir").addEventListener("click", () => {
 
-    const devise = document.getElementById("devise").value.trim().toUpperCase();
-    const newDevise = document.getElementById("newDevise").value.trim().toUpperCase();
-    const coef = parseFloat(document.getElementById("coef").value);
-    const somme = parseFloat(document.getElementById("somme").value);
-    const result = document.getElementById("resultat");
-
-    if (!devise || !newDevise || isNaN(coef) || isNaN(somme)) {
+    const temp = parseFloat(document.getElementById("devise").value.trim());
+    const humid = parseFloat(document.getElementById("newDevise").value.trim());
+    
+    if (!temp || !humid) {
         result.style.color = "red";
         result.textContent = "Veuillez remplir toutes les données correctement.";
         return;
     }
 
-    const montant = coef * somme;
+
+    const a = 17.27
+    const b = 237.7
+    
+    const alpha = ((a*temp)/(b+temp) +math.log(humid)
+    const rosee = (b*alpha)/(a-alpha)
+    
+    const montant = 125 * (temp-rosse);
 
     result.style.color = "#0a4";
     result.textContent =
-        `${somme.toFixed(2)} ${devise} valent ${montant.toFixed(2)} ${newDevise}`;
+        `${somme.toFixed(2)} ${temp} valent ${montant.toFixed(2)} ${humid}`;
 });
+
