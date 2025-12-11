@@ -3,12 +3,11 @@ document.getElementById("convertir").addEventListener("click", () => {
     const temp = parseFloat(document.getElementById("temp").value.trim());
     const humid = parseFloat(document.getElementById("humid").value.trim());
     
-    if (!temp || !humid) {
+    if (isNaN(temp) || isNaN(humid)) {
         result.style.color = "red";
         result.textContent = "Veuillez remplir toutes les données correctement.";
         return;
     }
-
 
     const a = 17.27
     const b = 237.7
@@ -21,5 +20,3 @@ document.getElementById("convertir").addEventListener("click", () => {
     result.style.color = "#0a4";
     result.textContent = `Température du point de rosée : ${rosee.toFixed(2)} °C, montant : ${montant.toFixed(2)}`;
 });
-
-
