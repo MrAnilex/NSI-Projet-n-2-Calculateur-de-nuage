@@ -13,7 +13,7 @@ document.getElementById("convertir").addEventListener("click", () => {
     const a = 17.27
     const b = 237.7
     
-    const alpha = ((a*temp)/(b+temp) + Math.log(humid)
+    const alpha = ((a*temp)/(b+temp) + Math.log(humid))
     const rosee = (b*alpha)/(a-alpha)
     
     const montant = 125 * (temp-rosee);
@@ -21,4 +21,5 @@ document.getElementById("convertir").addEventListener("click", () => {
     result.style.color = "#0a4";
     result.textContent = `Température du point de rosée : ${rosee.toFixed(2)} °C, montant : ${montant.toFixed(2)}`;
 });
+
 
