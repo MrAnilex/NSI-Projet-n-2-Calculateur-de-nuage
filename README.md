@@ -1,4 +1,4 @@
-# NSI-Projet-n-2-Calculateur-de-nuage
+# NSI Projet n°2 : Calculateur de la hauteur des nuages
 
 ---
 ## Note :
