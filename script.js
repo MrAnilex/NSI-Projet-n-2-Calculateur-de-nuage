@@ -1,5 +1,6 @@
 document.getElementById("convertir").addEventListener("click", () => {
 
+    const result = document.getElementById("result");
     const temp = parseFloat(document.getElementById("temp").value.trim());
     const humid = parseFloat(document.getElementById("humid").value.trim());
     
@@ -18,7 +19,8 @@ document.getElementById("convertir").addEventListener("click", () => {
     const hauteur = 125 * (temp - rosee);
 
     result.style.color = "#0a4";
-    result.textContent = `Température du point de rosée : ${rosee. toFixed(2)} °C\nHauteur de la base des nuages :  ${hauteur.toFixed(0)} mètres`;
+    result.textContent = `Température du point de rosée : ${rosee.toFixed(2)} °C\nHauteur de la base des nuages :  ${hauteur.toFixed(0)} mètres`;
 });
+
 
 
