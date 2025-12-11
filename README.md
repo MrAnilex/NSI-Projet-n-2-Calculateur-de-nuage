@@ -8,4 +8,4 @@ Voici le projet d'NSI concernant le calculateur de hauteur de nuage, le projet e
 - via ce lien :
 https://mranilex.github.io/NSI-Projet-n-2-Calculateur-de-nuage/
 
-## Les seuls problèmes que je n'ai pas su régler se trouve au niveau du CSS et sur la barre noire qui s'affiche derrière le résultat, c'est pas très beau, mais au moins ça marche
+## Les seuls problèmes que je n'ai pas su régler se trouve au niveau du CSS, c'est à propos de la barre grise qui s'affiche derrière le résultat, c'est pas très beau, mais au moins ça marche
