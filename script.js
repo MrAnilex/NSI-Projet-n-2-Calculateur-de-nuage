@@ -20,7 +20,5 @@ document.getElementById("convertir").addEventListener("click", () => {
 
     result.style.color = "#0a4";
     result.textContent =
-        `${somme.toFixed(2)} ${temp} valent ${montant.toFixed(2)} ${humid}`;
+// Il manque le print...
 });
-
-
